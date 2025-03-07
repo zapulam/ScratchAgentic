@@ -1,6 +1,6 @@
 # Building Effective LLM Workflows in Pure Python
 
-Copied from [daveebbelaar - ai-cookbook](https://github.com/daveebbelaar/ai-cookbook/tree/main/patterns/workflows)
+*Copied from [daveebbelaar - ai-cookbook](https://github.com/daveebbelaar/ai-cookbook/tree/main/patterns/workflows)*
 
 This repository contains practical patterns and examples for building effective LLM-powered systems. Based on real-world implementations and lessons learned from working with production systems, these patterns focus on simplicity and composability rather than complex frameworks.
 
