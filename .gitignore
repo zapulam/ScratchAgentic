@@ -1,0 +1,82 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+ 
+# Virtual environments
+venv/
+/venv/
+env/
+*.venv
+*.env
+
+# React dependencies
+*node_modules/
+ 
+# IDE-specific files
+.vscode/
+.idea/
+ 
+# OS-specific files
+.DS_Store
+Thumbs.db
+ 
+# Project-specific directories and files
+projects/ppt_generator/data/*
+!projects/ppt_generator/data/.gitkeep
+ 
+!projects/product_chatbot/faiss_index_dir/.gitkeep
+ 
+projects/ppt_generator/faiss_index/
+projects/ppt_generator/test_df.csv
+projects/ppt_generator/test.pptx
+ 
+# Exclude all PowerPoint files
+*.pptx
+ 
+# Exclude index test directory
+index_test/
+
+# Exclude faiss index directory
+faiss_index_dir/
+
+# Exclude ragas scores directory
+ragas_scores_dir/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Exclude nltk data directory
+nltk_data/
+ 
+# Environment variables file
+.env
+ 
+# Log files
+*.log
+ 
+# Temporary files
+*.tmp
+*.temp
+ 
+# CSV files (if you want to exclude all CSV files)
+*.csv
+!project_zephyr/profile_finder/extracted_entities.csv
+
+# PDF files (if you want to exclude all PDF files)
+*.pdf
+ 
+# Keep placeholder images
+!blank.png
+!placeholder.png
+ 
+# Exclude all contents of temp directories but keep the directories
+**/temp/*
+!**/temp/.gitkeep
+ 
+# Specific files to keep (uncomment if needed)
+# !projects/ppt_generator/data/important_file.csv
+# !projects/product_chatbot/faiss_index_dir/important_index.faiss
+ 
+# Ignore files
+secrets.json
